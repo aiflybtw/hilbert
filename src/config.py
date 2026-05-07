@@ -17,14 +17,13 @@ class Config:
     tg_session_file: str = os.getenv("TG_SESSION_FILE", "tg_session")
 
     search_queries: list[str] = field(default_factory=lambda: [
-        "DevOps", "DevOps Engineer", "DevSecOps", "MLOps",
-        "DataOps", "FinOps", "SRE", "Site Reliability Engineer",
+        "DevOps", "DevOps Engineer", "DevSecOps", "MLOps", "SRE", "Site Reliability Engineer",
     ])
-    tg_channels: list[str] = field(default_factory=lambda: ["devops_jobs"])
-    tg_max_age_days: int = 30
+    tg_channels: list[str] = field(default_factory=lambda: ["devops_jobs_feed"])
+    tg_max_age_days: int = 90
     crawl_delay: float = 1.5
-    parse_delay: float = 1.0
-    batch_size: int = 50
+    parse_delay: float = 2.0
+    batch_size: int = 100
     inter_query_delay: float = 5.0
     default_sources: list[str] = field(default_factory=lambda: ["hh", "habr", "telegram"])
 

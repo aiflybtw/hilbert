@@ -227,7 +227,7 @@ class VacancyRepo:
         print(f"  [vacancies] upsert: {vacancy.get('vacancy_id')} [{vacancy.get('source')}]{flag}")
         return inserted
 
-    def find_by_source(self, source: str, limit: int = 100) -> list[dict]:
+    def find_by_source(self, source: str, limit: int = 10000) -> list[dict]:
         with self._db.cursor() as cur:
             cur.execute(
                 "SELECT * FROM vacancies WHERE source = %s LIMIT %s",
