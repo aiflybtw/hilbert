@@ -21,6 +21,8 @@ class HHParser(BaseParser):
                 soup, selector='[data-qa="vacancy-salary"]'
             )
 
+        description = ld.get("description") or self.text(soup, '[data-qa="vacancy-description"]')
+
         return {
             "vacancy_id": vacancy_id,
             "source": self.SOURCE,
@@ -36,8 +38,8 @@ class HHParser(BaseParser):
             "salary_from": salary_from,
             "salary_to": salary_to,
             "currency": currency,
-            "description": ld.get("description") or self.text(soup, '[data-qa="vacancy-description"]'),
-            "remote": self.is_remote(ld, soup),
+            "description": description,
+            "remote": self.is_remote(ld, description),
             "published_at": self.parse_dt(ld.get("datePosted")),
         }
 

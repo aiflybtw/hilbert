@@ -17,7 +17,7 @@ class Config:
     tg_session_file: str = os.getenv("TG_SESSION_FILE", "tg_session")
 
     search_queries: list[str] = field(default_factory=lambda: [
-        "DevOps", "DevOps Engineer", "DevSecOps", "MLOps", "SRE", "Site Reliability Engineer",
+        "DevOps", "DevSecOps", "MLOps", "SRE", "Site Reliability Engineer",
     ])
     tg_channels: list[str] = field(default_factory=lambda: ["devops_jobs_feed"])
     tg_max_age_days: int = 90

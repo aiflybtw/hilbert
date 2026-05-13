@@ -11,6 +11,7 @@ dependencies = [
     "telethon",
     "browser-cookie3",
     "python-dotenv",
+    "openai",
     "pandas",
     "sqlalchemy",
     "openpyxl",

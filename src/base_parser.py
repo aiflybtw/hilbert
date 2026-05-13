@@ -91,10 +91,10 @@ class BaseParser:
         return d if isinstance(d, str) else None
 
     @staticmethod
-    def is_remote(ld: dict, soup: BeautifulSoup) -> bool:
+    def is_remote(ld: dict, description_text: str) -> bool:
         if ld.get("jobLocationType") == "TELECOMMUTE":
             return True
-        return bool(soup.find(string=re.compile(r"удалённ|remote", re.I)))
+        return bool(re.search(r"удалённ|remote", description_text or "", re.I))
 
     @staticmethod
     def parse_dt(value: Optional[str]) -> Optional[datetime]:

@@ -21,6 +21,8 @@ class HabrParser(BaseParser):
                 soup, selector=".vacancy-header__salary"
             )
 
+        description = ld.get("description") or self.text(soup, ".vacancy-description__text")
+
         return {
             "vacancy_id": vacancy_id,
             "source": self.SOURCE,
@@ -36,8 +38,8 @@ class HabrParser(BaseParser):
             "salary_from": salary_from,
             "salary_to": salary_to,
             "currency": currency,
-            "description": ld.get("description") or self.text(soup, ".vacancy-description__text"),
-            "remote": self.is_remote(ld, soup),
+            "description": description,
+            "remote": self.is_remote(ld, description),
             "published_at": self.parse_dt(ld.get("datePosted")),
         }
 
