@@ -50,8 +50,8 @@ class HtmlDescriptionCleaner:
         lines = [l for l in lines if not self._is_junk_line(l)]
         lines = [self._remove_bullet(l) for l in lines]
 
-        text = self._flatten_lines(lines)
-        text = self._MULTI_BLANK_RE.sub("\n\n", text)
+        text = " ".join(lines)
+        text = self._MULTI_BLANK_RE.sub(" ", text)
         text = text.strip()
 
         return text if text else None
@@ -106,15 +106,8 @@ class TelegramCleaner:
 
     _MULTI_BLANK_RE = re.compile(r"\n{3,}")
 
-    _SERVICE_LINES = re.compile(
-        r"^(?:"
-        r"Публикатор\s*:.*"
-        r"|Обсуждение\s*:.*"
-        r"|Резюме\s+отправлять\s*:.*"
-        r"|Отклик\s*:.*"
-        r"|Писать\s*:.*"
-        r"|Контакты?\s*:.*"
-        r")\s*$",
+    _SERVICE_LINE_PREFIX = re.compile(
+        r"^(?:Публикатор|Обсуждение|Резюме\s+отправлять|Отклик|Писать|Контакты?)\s*:\s*",
         re.IGNORECASE,
     )
 
@@ -134,11 +127,10 @@ class TelegramCleaner:
 
             if not stripped:
                 continue
-            if self._SERVICE_LINES.match(stripped):
-                continue
             if self._DIVIDER.match(stripped):
                 continue
 
+            stripped = self._SERVICE_LINE_PREFIX.sub("", stripped).strip()
             stripped = self._HASHTAG_OR_MENTION.sub("", stripped).strip()
             if not stripped:
                 continue

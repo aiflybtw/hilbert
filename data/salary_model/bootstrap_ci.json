@@ -1,0 +1,1057 @@
+{
+  "n_vacancies": 282,
+  "grade_distribution": {
+    "Intern": 12,
+    "Junior": 9,
+    "Middle": 63,
+    "Senior": 167,
+    "Lead": 31
+  },
+  "n_bootstrap": 1000,
+  "n_failed": 0,
+  "feature_order": [
+    "Security & DevSecOps",
+    "Networking, Protocols & Traffic",
+    "ML & AI Infrastructure",
+    "Observability & Monitoring",
+    "Containers & Orchestration",
+    "Big Data & Data Engineering",
+    "CI/CD & GitOps",
+    "Cloud Platforms",
+    "Scripting & Automation",
+    "Backend Languages",
+    "Build & Package Management",
+    "Relational Databases",
+    "Storage & Filesystems",
+    "Load Balancing & Service Mesh",
+    "Virtualization & Hypervisors",
+    "IaC & Config Management",
+    "NoSQL & Time-Series DB",
+    "Messaging & API Gateway",
+    "Linux & OS Administration",
+    "Web & Frontend",
+    "Web Servers",
+    "Backup & Recovery",
+    "VoIP & Telephony",
+    "Email & Collaboration",
+    "Коллаборация",
+    "Системное мышление",
+    "Обучаемость",
+    "Лидерство",
+    "Ответственность",
+    "Наставничество",
+    "min_years"
+  ],
+  "grade_order": [
+    "Intern",
+    "Junior",
+    "Middle",
+    "Senior",
+    "Lead"
+  ],
+  "coefficients": {
+    "Security & DevSecOps": {
+      "Intern": -0.208,
+      "Junior": 0.121,
+      "Middle": 0.361,
+      "Senior": 0.139,
+      "Lead": -0.413
+    },
+    "Networking, Protocols & Traffic": {
+      "Intern": 1.128,
+      "Junior": -0.732,
+      "Middle": -0.109,
+      "Senior": -0.159,
+      "Lead": -0.129
+    },
+    "ML & AI Infrastructure": {
+      "Intern": -0.022,
+      "Junior": -0.516,
+      "Middle": -0.135,
+      "Senior": 0.061,
+      "Lead": 0.613
+    },
+    "Observability & Monitoring": {
+      "Intern": -1.417,
+      "Junior": 0.927,
+      "Middle": 0.266,
+      "Senior": 0.011,
+      "Lead": 0.213
+    },
+    "Containers & Orchestration": {
+      "Intern": -0.206,
+      "Junior": 0.806,
+      "Middle": -0.446,
+      "Senior": -0.082,
+      "Lead": -0.072
+    },
+    "Big Data & Data Engineering": {
+      "Intern": -0.199,
+      "Junior": -0.455,
+      "Middle": -0.047,
+      "Senior": -0.019,
+      "Lead": 0.721
+    },
+    "CI/CD & GitOps": {
+      "Intern": -0.086,
+      "Junior": 0.162,
+      "Middle": -0.009,
+      "Senior": 0.143,
+      "Lead": -0.21
+    },
+    "Cloud Platforms": {
+      "Intern": 0.536,
+      "Junior": -0.778,
+      "Middle": 0.264,
+      "Senior": -0.111,
+      "Lead": 0.089
+    },
+    "Scripting & Automation": {
+      "Intern": -0.309,
+      "Junior": -0.959,
+      "Middle": 0.416,
+      "Senior": -0.042,
+      "Lead": 0.893
+    },
+    "Backend Languages": {
+      "Intern": 0.037,
+      "Junior": -1.043,
+      "Middle": 0.45,
+      "Senior": 0.87,
+      "Lead": -0.313
+    },
+    "Build & Package Management": {
+      "Intern": -0.083,
+      "Junior": -0.781,
+      "Middle": 0.388,
+      "Senior": -0.109,
+      "Lead": 0.585
+    },
+    "Relational Databases": {
+      "Intern": 0.161,
+      "Junior": 0.671,
+      "Middle": 0.152,
+      "Senior": -0.181,
+      "Lead": -0.803
+    },
+    "Storage & Filesystems": {
+      "Intern": 0.297,
+      "Junior": 0.644,
+      "Middle": -0.433,
+      "Senior": -0.128,
+      "Lead": -0.379
+    },
+    "Load Balancing & Service Mesh": {
+      "Intern": -0.209,
+      "Junior": -0.655,
+      "Middle": 0.222,
+      "Senior": 0.512,
+      "Lead": 0.13
+    },
+    "Virtualization & Hypervisors": {
+      "Intern": -0.09,
+      "Junior": 0.721,
+      "Middle": 0.075,
+      "Senior": -0.366,
+      "Lead": -0.34
+    },
+    "IaC & Config Management": {
+      "Intern": -0.224,
+      "Junior": -0.265,
+      "Middle": 0.219,
+      "Senior": 0.314,
+      "Lead": -0.044
+    },
+    "NoSQL & Time-Series DB": {
+      "Intern": -0.259,
+      "Junior": -0.019,
+      "Middle": -0.358,
+      "Senior": 0.33,
+      "Lead": 0.307
+    },
+    "Messaging & API Gateway": {
+      "Intern": -0.108,
+      "Junior": -0.492,
+      "Middle": 0.459,
+      "Senior": 0.381,
+      "Lead": -0.24
+    },
+    "Linux & OS Administration": {
+      "Intern": -0.087,
+      "Junior": -0.045,
+      "Middle": 0.075,
+      "Senior": -0.148,
+      "Lead": 0.205
+    },
+    "Web & Frontend": {
+      "Intern": -0.104,
+      "Junior": 0.185,
+      "Middle": -0.181,
+      "Senior": -0.285,
+      "Lead": 0.385
+    },
+    "Web Servers": {
+      "Intern": -0.007,
+      "Junior": -0.454,
+      "Middle": 0.121,
+      "Senior": -0.088,
+      "Lead": 0.429
+    },
+    "Backup & Recovery": {
+      "Intern": 0.004,
+      "Junior": 0.59,
+      "Middle": 0.035,
+      "Senior": -0.287,
+      "Lead": -0.341
+    },
+    "VoIP & Telephony": {
+      "Intern": -0.017,
+      "Junior": -0.096,
+      "Middle": -0.21,
+      "Senior": 0.512,
+      "Lead": -0.19
+    },
+    "Email & Collaboration": {
+      "Intern": 0.001,
+      "Junior": -0.003,
+      "Middle": -0.04,
+      "Senior": 0.055,
+      "Lead": -0.013
+    },
+    "Коллаборация": {
+      "Intern": -0.347,
+      "Junior": 0.561,
+      "Middle": -0.537,
+      "Senior": -0.04,
+      "Lead": 0.362
+    },
+    "Системное мышление": {
+      "Intern": 0.048,
+      "Junior": 0.409,
+      "Middle": -0.193,
+      "Senior": 0.045,
+      "Lead": -0.31
+    },
+    "Обучаемость": {
+      "Intern": -0.491,
+      "Junior": 0.294,
+      "Middle": 0.279,
+      "Senior": -0.157,
+      "Lead": 0.076
+    },
+    "Лидерство": {
+      "Intern": 0.255,
+      "Junior": -1.098,
+      "Middle": 0.363,
+      "Senior": -0.125,
+      "Lead": 0.605
+    },
+    "Ответственность": {
+      "Intern": 0.103,
+      "Junior": 0.335,
+      "Middle": -0.083,
+      "Senior": -0.322,
+      "Lead": -0.034
+    },
+    "Наставничество": {
+      "Intern": -0.324,
+      "Junior": -0.373,
+      "Middle": -0.271,
+      "Senior": 0.203,
+      "Lead": 0.765
+    },
+    "min_years": {
+      "Intern": -3.033,
+      "Junior": -1.777,
+      "Middle": 0.099,
+      "Senior": 2.413,
+      "Lead": 2.298
+    }
+  },
+  "ci_lo": {
+    "Security & DevSecOps": {
+      "Intern": -0.785,
+      "Junior": -0.682,
+      "Middle": 0.028,
+      "Senior": -0.153,
+      "Lead": -1.053
+    },
+    "Networking, Protocols & Traffic": {
+      "Intern": 0.55,
+      "Junior": -1.359,
+      "Middle": -0.427,
+      "Senior": -0.473,
+      "Lead": -0.72
+    },
+    "ML & AI Infrastructure": {
+      "Intern": -0.444,
+      "Junior": -1.136,
+      "Middle": -0.761,
+      "Senior": -0.329,
+      "Lead": 0.224
+    },
+    "Observability & Monitoring": {
+      "Intern": -1.52,
+      "Junior": 0.049,
+      "Middle": -0.182,
+      "Senior": -0.362,
+      "Lead": -0.281
+    },
+    "Containers & Orchestration": {
+      "Intern": -0.554,
+      "Junior": -0.197,
+      "Middle": -0.845,
+      "Senior": -0.34,
+      "Lead": -0.648
+    },
+    "Big Data & Data Engineering": {
+      "Intern": -0.615,
+      "Junior": -0.857,
+      "Middle": -0.584,
+      "Senior": -0.483,
+      "Lead": 0.204
+    },
+    "CI/CD & GitOps": {
+      "Intern": -0.541,
+      "Junior": -0.68,
+      "Middle": -0.401,
+      "Senior": -0.288,
+      "Lead": -0.653
+    },
+    "Cloud Platforms": {
+      "Intern": -0.25,
+      "Junior": -1.198,
+      "Middle": -0.134,
+      "Senior": -0.502,
+      "Lead": -0.497
+    },
+    "Scripting & Automation": {
+      "Intern": -0.621,
+      "Junior": -1.207,
+      "Middle": -0.112,
+      "Senior": -0.56,
+      "Lead": 0.271
+    },
+    "Backend Languages": {
+      "Intern": -0.519,
+      "Junior": -1.411,
+      "Middle": 0.066,
+      "Senior": 0.488,
+      "Lead": -0.993
+    },
+    "Build & Package Management": {
+      "Intern": -0.22,
+      "Junior": -1.054,
+      "Middle": -0.033,
+      "Senior": -0.663,
+      "Lead": 0.046
+    },
+    "Relational Databases": {
+      "Intern": -0.365,
+      "Junior": -0.625,
+      "Middle": -0.134,
+      "Senior": -0.432,
+      "Lead": -1.365
+    },
+    "Storage & Filesystems": {
+      "Intern": -0.208,
+      "Junior": -0.485,
+      "Middle": -0.948,
+      "Senior": -0.378,
+      "Lead": -1.144
+    },
+    "Load Balancing & Service Mesh": {
+      "Intern": -0.571,
+      "Junior": -0.984,
+      "Middle": -0.262,
+      "Senior": -0.01,
+      "Lead": -0.688
+    },
+    "Virtualization & Hypervisors": {
+      "Intern": -0.519,
+      "Junior": -0.413,
+      "Middle": -0.255,
+      "Senior": -0.682,
+      "Lead": -0.801
+    },
+    "IaC & Config Management": {
+      "Intern": -0.657,
+      "Junior": -1.24,
+      "Middle": -0.235,
+      "Senior": -0.047,
+      "Lead": -0.524
+    },
+    "NoSQL & Time-Series DB": {
+      "Intern": -0.453,
+      "Junior": -0.914,
+      "Middle": -0.857,
+      "Senior": -0.034,
+      "Lead": -0.326
+    },
+    "Messaging & API Gateway": {
+      "Intern": -0.305,
+      "Junior": -0.78,
+      "Middle": -0.035,
+      "Senior": -0.101,
+      "Lead": -1.143
+    },
+    "Linux & OS Administration": {
+      "Intern": -0.429,
+      "Junior": -0.871,
+      "Middle": -0.516,
+      "Senior": -0.624,
+      "Lead": -0.354
+    },
+    "Web & Frontend": {
+      "Intern": -0.239,
+      "Junior": -0.378,
+      "Middle": -0.566,
+      "Senior": -0.811,
+      "Lead": -0.427
+    },
+    "Web Servers": {
+      "Intern": -0.107,
+      "Junior": -0.629,
+      "Middle": -0.389,
+      "Senior": -0.692,
+      "Lead": -0.221
+    },
+    "Backup & Recovery": {
+      "Intern": -0.023,
+      "Junior": -0.146,
+      "Middle": -0.327,
+      "Senior": -0.561,
+      "Lead": -0.447
+    },
+    "VoIP & Telephony": {
+      "Intern": -0.086,
+      "Junior": -0.302,
+      "Middle": -0.391,
+      "Senior": 0.055,
+      "Lead": -0.493
+    },
+    "Email & Collaboration": {
+      "Intern": -0.004,
+      "Junior": -0.008,
+      "Middle": -0.091,
+      "Senior": -0.001,
+      "Lead": -0.047
+    },
+    "Коллаборация": {
+      "Intern": -0.689,
+      "Junior": -0.661,
+      "Middle": -0.898,
+      "Senior": -0.349,
+      "Lead": 0.051
+    },
+    "Системное мышление": {
+      "Intern": -0.344,
+      "Junior": -0.596,
+      "Middle": -0.581,
+      "Senior": -0.231,
+      "Lead": -0.846
+    },
+    "Обучаемость": {
+      "Intern": -0.574,
+      "Junior": -0.495,
+      "Middle": -0.182,
+      "Senior": -0.656,
+      "Lead": -0.568
+    },
+    "Лидерство": {
+      "Intern": -0.323,
+      "Junior": -1.093,
+      "Middle": -0.172,
+      "Senior": -0.689,
+      "Lead": 0.057
+    },
+    "Ответственность": {
+      "Intern": -0.364,
+      "Junior": -0.833,
+      "Middle": -0.503,
+      "Senior": -0.68,
+      "Lead": -0.552
+    },
+    "Наставничество": {
+      "Intern": -0.829,
+      "Junior": -0.761,
+      "Middle": -0.825,
+      "Senior": -0.245,
+      "Lead": 0.266
+    },
+    "min_years": {
+      "Intern": -3.045,
+      "Junior": -2.157,
+      "Middle": -0.694,
+      "Senior": 1.833,
+      "Lead": 1.505
+    }
+  },
+  "ci_hi": {
+    "Security & DevSecOps": {
+      "Intern": 0.224,
+      "Junior": 0.558,
+      "Middle": 0.919,
+      "Senior": 0.661,
+      "Lead": 0.117
+    },
+    "Networking, Protocols & Traffic": {
+      "Intern": 1.445,
+      "Junior": -0.011,
+      "Middle": 0.36,
+      "Senior": 0.315,
+      "Lead": 0.355
+    },
+    "ML & AI Infrastructure": {
+      "Intern": 0.316,
+      "Junior": 0.073,
+      "Middle": 0.236,
+      "Senior": 0.453,
+      "Lead": 1.183
+    },
+    "Observability & Monitoring": {
+      "Intern": -0.85,
+      "Junior": 1.341,
+      "Middle": 0.667,
+      "Senior": 0.386,
+      "Lead": 0.659
+    },
+    "Containers & Orchestration": {
+      "Intern": 0.359,
+      "Junior": 1.266,
+      "Middle": -0.023,
+      "Senior": 0.405,
+      "Lead": 0.522
+    },
+    "Big Data & Data Engineering": {
+      "Intern": 0.177,
+      "Junior": 0.269,
+      "Middle": 0.324,
+      "Senior": 0.348,
+      "Lead": 1.321
+    },
+    "CI/CD & GitOps": {
+      "Intern": 0.324,
+      "Junior": 1.038,
+      "Middle": 0.413,
+      "Senior": 0.536,
+      "Lead": 0.44
+    },
+    "Cloud Platforms": {
+      "Intern": 0.844,
+      "Junior": -0.042,
+      "Middle": 0.695,
+      "Senior": 0.328,
+      "Lead": 0.7
+    },
+    "Scripting & Automation": {
+      "Intern": 0.294,
+      "Junior": -0.364,
+      "Middle": 0.695,
+      "Senior": 0.259,
+      "Lead": 1.307
+    },
+    "Backend Languages": {
+      "Intern": 0.364,
+      "Junior": -0.289,
+      "Middle": 0.868,
+      "Senior": 1.3,
+      "Lead": 0.096
+    },
+    "Build & Package Management": {
+      "Intern": -0.009,
+      "Junior": -0.074,
+      "Middle": 0.702,
+      "Senior": 0.037,
+      "Lead": 1.048
+    },
+    "Relational Databases": {
+      "Intern": 0.549,
+      "Junior": 0.979,
+      "Middle": 0.823,
+      "Senior": 0.467,
+      "Lead": -0.255
+    },
+    "Storage & Filesystems": {
+      "Intern": 0.518,
+      "Junior": 1.178,
+      "Middle": 0.297,
+      "Senior": 0.764,
+      "Lead": 0.448
+    },
+    "Load Balancing & Service Mesh": {
+      "Intern": 0.193,
+      "Junior": 0.294,
+      "Middle": 0.519,
+      "Senior": 0.863,
+      "Lead": 0.528
+    },
+    "Virtualization & Hypervisors": {
+      "Intern": 0.322,
+      "Junior": 1.116,
+      "Middle": 0.579,
+      "Senior": 0.134,
+      "Lead": 0.3
+    },
+    "IaC & Config Management": {
+      "Intern": 0.143,
+      "Junior": 0.525,
+      "Middle": 0.664,
+      "Senior": 0.748,
+      "Lead": 0.518
+    },
+    "NoSQL & Time-Series DB": {
+      "Intern": -0.107,
+      "Junior": 0.711,
+      "Middle": 0.161,
+      "Senior": 0.863,
+      "Lead": 0.889
+    },
+    "Messaging & API Gateway": {
+      "Intern": -0.005,
+      "Junior": -0.081,
+      "Middle": 0.954,
+      "Senior": 0.906,
+      "Lead": 0.238
+    },
+    "Linux & OS Administration": {
+      "Intern": 0.527,
+      "Junior": 0.805,
+      "Middle": 0.518,
+      "Senior": 0.225,
+      "Lead": 0.778
+    },
+    "Web & Frontend": {
+      "Intern": -0.002,
+      "Junior": 0.885,
+      "Middle": 0.205,
+      "Senior": 0.123,
+      "Lead": 0.847
+    },
+    "Web Servers": {
+      "Intern": 0.007,
+      "Junior": -0.012,
+      "Middle": 0.328,
+      "Senior": 0.301,
+      "Lead": 0.859
+    },
+    "Backup & Recovery": {
+      "Intern": 0.012,
+      "Junior": 1.082,
+      "Middle": 0.298,
+      "Senior": 0.102,
+      "Lead": -0.004
+    },
+    "VoIP & Telephony": {
+      "Intern": 0.01,
+      "Junior": 0.006,
+      "Middle": 0.001,
+      "Senior": 0.692,
+      "Lead": 0.003
+    },
+    "Email & Collaboration": {
+      "Intern": 0.008,
+      "Junior": 0.007,
+      "Middle": 0.004,
+      "Senior": 0.101,
+      "Lead": 0.005
+    },
+    "Коллаборация": {
+      "Intern": 0.201,
+      "Junior": 0.804,
+      "Middle": -0.038,
+      "Senior": 0.385,
+      "Lead": 1.164
+    },
+    "Системное мышление": {
+      "Intern": 0.494,
+      "Junior": 0.667,
+      "Middle": 0.398,
+      "Senior": 0.56,
+      "Lead": 0.259
+    },
+    "Обучаемость": {
+      "Intern": -0.0,
+      "Junior": 0.932,
+      "Middle": 0.68,
+      "Senior": 0.23,
+      "Lead": 0.471
+    },
+    "Лидерство": {
+      "Intern": 0.479,
+      "Junior": -0.155,
+      "Middle": 0.612,
+      "Senior": 0.113,
+      "Lead": 1.051
+    },
+    "Ответственность": {
+      "Intern": 0.479,
+      "Junior": 0.951,
+      "Middle": 0.427,
+      "Senior": 0.196,
+      "Lead": 0.539
+    },
+    "Наставничество": {
+      "Intern": 0.011,
+      "Junior": 0.592,
+      "Middle": -0.006,
+      "Senior": 0.489,
+      "Lead": 1.199
+    },
+    "min_years": {
+      "Intern": -2.103,
+      "Junior": -0.691,
+      "Middle": 0.152,
+      "Senior": 2.755,
+      "Lead": 2.629
+    }
+  },
+  "oob_metrics": {
+    "n_oob": 282,
+    "accuracy": 0.5993,
+    "adjacent_accuracy": 0.922,
+    "mean_ordinal_error": 0.4965,
+    "per_grade": {
+      "Intern": {
+        "n": 12,
+        "precision": 0.75,
+        "recall": 0.75,
+        "f1": 0.75,
+        "adj_accuracy": 0.75
+      },
+      "Junior": {
+        "n": 9,
+        "precision": 0.083,
+        "recall": 0.111,
+        "f1": 0.095,
+        "adj_accuracy": 0.778
+      },
+      "Middle": {
+        "n": 63,
+        "precision": 0.522,
+        "recall": 0.571,
+        "f1": 0.545,
+        "adj_accuracy": 0.873
+      },
+      "Senior": {
+        "n": 167,
+        "precision": 0.782,
+        "recall": 0.665,
+        "f1": 0.718,
+        "adj_accuracy": 0.97
+      },
+      "Lead": {
+        "n": 31,
+        "precision": 0.255,
+        "recall": 0.387,
+        "f1": 0.308,
+        "adj_accuracy": 0.871
+      }
+    },
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        3,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        6,
+        2,
+        0
+      ],
+      [
+        1,
+        5,
+        36,
+        14,
+        7
+      ],
+      [
+        0,
+        5,
+        23,
+        111,
+        28
+      ],
+      [
+        2,
+        1,
+        1,
+        15,
+        12
+      ]
+    ]
+  },
+  "delta_ci_lo": {
+    "Δβ I→J": {
+      "Security & DevSecOps": -0.715,
+      "Networking, Protocols & Traffic": -2.628,
+      "ML & AI Infrastructure": -1.302,
+      "Observability & Monitoring": 1.037,
+      "Containers & Orchestration": -0.345,
+      "Big Data & Data Engineering": -0.889,
+      "CI/CD & GitOps": -0.823,
+      "Cloud Platforms": -1.898,
+      "Scripting & Automation": -1.257,
+      "Backend Languages": -1.63,
+      "Build & Package Management": -0.997,
+      "Relational Databases": -1.008,
+      "Storage & Filesystems": -0.81,
+      "Load Balancing & Service Mesh": -1.017,
+      "Virtualization & Hypervisors": -0.557,
+      "IaC & Config Management": -1.203,
+      "NoSQL & Time-Series DB": -0.77,
+      "Messaging & API Gateway": -0.666,
+      "Linux & OS Administration": -1.219,
+      "Web & Frontend": -0.342,
+      "Web Servers": -0.614,
+      "Backup & Recovery": -0.145,
+      "VoIP & Telephony": -0.295,
+      "Email & Collaboration": -0.006,
+      "Коллаборация": -0.68,
+      "Системное мышление": -0.968,
+      "Обучаемость": -0.41,
+      "Лидерство": -1.396,
+      "Ответственность": -1.186,
+      "Наставничество": -0.589,
+      "min_years": 0.237
+    },
+    "Δβ J→M": {
+      "Security & DevSecOps": -0.385,
+      "Networking, Protocols & Traffic": -0.296,
+      "ML & AI Infrastructure": -0.621,
+      "Observability & Monitoring": -1.456,
+      "Containers & Orchestration": -1.87,
+      "Big Data & Data Engineering": -0.7,
+      "CI/CD & GitOps": -1.378,
+      "Cloud Platforms": 0.104,
+      "Scripting & Automation": 0.416,
+      "Backend Languages": 0.511,
+      "Build & Package Management": 0.121,
+      "Relational Databases": -0.973,
+      "Storage & Filesystems": -1.788,
+      "Load Balancing & Service Mesh": -0.386,
+      "Virtualization & Hypervisors": -1.201,
+      "IaC & Config Management": -0.644,
+      "NoSQL & Time-Series DB": -1.43,
+      "Messaging & API Gateway": 0.213,
+      "Linux & OS Administration": -1.195,
+      "Web & Frontend": -1.224,
+      "Web Servers": -0.268,
+      "Backup & Recovery": -1.37,
+      "VoIP & Telephony": -0.352,
+      "Email & Collaboration": -0.09,
+      "Коллаборация": -1.579,
+      "Системное мышление": -1.059,
+      "Обучаемость": -0.975,
+      "Лидерство": 0.173,
+      "Ответственность": -1.255,
+      "Наставничество": -1.246,
+      "min_years": 0.172
+    },
+    "Δβ M→S": {
+      "Security & DevSecOps": -0.758,
+      "Networking, Protocols & Traffic": -0.564,
+      "ML & AI Infrastructure": -0.332,
+      "Observability & Monitoring": -0.812,
+      "Containers & Orchestration": -0.011,
+      "Big Data & Data Engineering": -0.557,
+      "CI/CD & GitOps": -0.37,
+      "Cloud Platforms": -0.911,
+      "Scripting & Automation": -1.071,
+      "Backend Languages": -0.123,
+      "Build & Package Management": -1.077,
+      "Relational Databases": -0.918,
+      "Storage & Filesystems": -0.181,
+      "Load Balancing & Service Mesh": -0.223,
+      "Virtualization & Hypervisors": -0.903,
+      "IaC & Config Management": -0.443,
+      "NoSQL & Time-Series DB": 0.104,
+      "Messaging & API Gateway": -0.748,
+      "Linux & OS Administration": -0.933,
+      "Web & Frontend": -0.693,
+      "Web Servers": -0.821,
+      "Backup & Recovery": -0.659,
+      "VoIP & Telephony": 0.073,
+      "Email & Collaboration": -0.0,
+      "Коллаборация": -0.016,
+      "Системное мышление": -0.329,
+      "Обучаемость": -0.98,
+      "Лидерство": -1.082,
+      "Ответственность": -0.791,
+      "Наставничество": 0.031,
+      "min_years": 1.938
+    },
+    "Δβ S→L": {
+      "Security & DevSecOps": -1.564,
+      "Networking, Protocols & Traffic": -0.873,
+      "ML & AI Infrastructure": 0.019,
+      "Observability & Monitoring": -0.493,
+      "Containers & Orchestration": -0.854,
+      "Big Data & Data Engineering": 0.035,
+      "CI/CD & GitOps": -0.99,
+      "Cloud Platforms": -0.65,
+      "Scripting & Automation": 0.145,
+      "Backend Languages": -2.114,
+      "Build & Package Management": 0.038,
+      "Relational Databases": -1.545,
+      "Storage & Filesystems": -1.514,
+      "Load Balancing & Service Mesh": -1.383,
+      "Virtualization & Hypervisors": -0.785,
+      "IaC & Config Management": -1.035,
+      "NoSQL & Time-Series DB": -1.051,
+      "Messaging & API Gateway": -1.87,
+      "Linux & OS Administration": -0.335,
+      "Web & Frontend": -0.369,
+      "Web Servers": -0.395,
+      "Backup & Recovery": -0.246,
+      "VoIP & Telephony": -1.137,
+      "Email & Collaboration": -0.131,
+      "Коллаборация": -0.128,
+      "Системное мышление": -1.177,
+      "Обучаемость": -0.665,
+      "Лидерство": 0.128,
+      "Ответственность": -0.486,
+      "Наставничество": -0.025,
+      "min_years": -1.007
+    }
+  },
+  "delta_ci_hi": {
+    "Δβ I→J": {
+      "Security & DevSecOps": 1.193,
+      "Networking, Protocols & Traffic": -0.705,
+      "ML & AI Infrastructure": 0.343,
+      "Observability & Monitoring": 2.767,
+      "Containers & Orchestration": 1.654,
+      "Big Data & Data Engineering": 0.703,
+      "CI/CD & GitOps": 1.458,
+      "Cloud Platforms": 0.062,
+      "Scripting & Automation": 0.08,
+      "Backend Languages": 0.065,
+      "Build & Package Management": 0.02,
+      "Relational Databases": 1.082,
+      "Storage & Filesystems": 1.25,
+      "Load Balancing & Service Mesh": 0.662,
+      "Virtualization & Hypervisors": 1.471,
+      "IaC & Config Management": 0.989,
+      "NoSQL & Time-Series DB": 1.064,
+      "Messaging & API Gateway": 0.044,
+      "Linux & OS Administration": 1.039,
+      "Web & Frontend": 1.004,
+      "Web Servers": 0.02,
+      "Backup & Recovery": 1.089,
+      "VoIP & Telephony": 0.049,
+      "Email & Collaboration": 0.004,
+      "Коллаборация": 1.324,
+      "Системное мышление": 0.83,
+      "Обучаемость": 1.397,
+      "Лидерство": 0.021,
+      "Ответственность": 1.192,
+      "Наставничество": 1.246,
+      "min_years": 2.157
+    },
+    "Δβ J→M": {
+      "Security & DevSecOps": 1.431,
+      "Networking, Protocols & Traffic": 1.566,
+      "ML & AI Infrastructure": 1.244,
+      "Observability & Monitoring": 0.449,
+      "Containers & Orchestration": 0.034,
+      "Big Data & Data Engineering": 0.985,
+      "CI/CD & GitOps": 0.937,
+      "Cloud Platforms": 1.626,
+      "Scripting & Automation": 1.718,
+      "Backend Languages": 2.112,
+      "Build & Package Management": 1.636,
+      "Relational Databases": 1.353,
+      "Storage & Filesystems": 0.643,
+      "Load Balancing & Service Mesh": 1.351,
+      "Virtualization & Hypervisors": 0.878,
+      "IaC & Config Management": 1.735,
+      "NoSQL & Time-Series DB": 0.917,
+      "Messaging & API Gateway": 1.506,
+      "Linux & OS Administration": 1.212,
+      "Web & Frontend": 0.444,
+      "Web Servers": 0.82,
+      "Backup & Recovery": 0.42,
+      "VoIP & Telephony": 0.223,
+      "Email & Collaboration": 0.011,
+      "Коллаборация": 0.463,
+      "Системное мышление": 0.785,
+      "Обучаемость": 1.085,
+      "Лидерство": 1.525,
+      "Ответственность": 1.233,
+      "Наставничество": 0.645,
+      "min_years": 2.174
+    },
+    "Δβ M→S": {
+      "Security & DevSecOps": 0.289,
+      "Networking, Protocols & Traffic": 0.46,
+      "ML & AI Infrastructure": 1.005,
+      "Observability & Monitoring": 0.359,
+      "Containers & Orchestration": 0.977,
+      "Big Data & Data Engineering": 0.663,
+      "CI/CD & GitOps": 0.568,
+      "Cloud Platforms": 0.128,
+      "Scripting & Automation": 0.103,
+      "Backend Languages": 0.958,
+      "Build & Package Management": -0.169,
+      "Relational Databases": 0.271,
+      "Storage & Filesystems": 1.286,
+      "Load Balancing & Service Mesh": 0.783,
+      "Virtualization & Hypervisors": -0.011,
+      "IaC & Config Management": 0.656,
+      "NoSQL & Time-Series DB": 1.467,
+      "Messaging & API Gateway": 0.609,
+      "Linux & OS Administration": 0.411,
+      "Web & Frontend": 0.378,
+      "Web Servers": 0.46,
+      "Backup & Recovery": 0.166,
+      "VoIP & Telephony": 0.955,
+      "Email & Collaboration": 0.186,
+      "Коллаборация": 0.978,
+      "Системное мышление": 0.852,
+      "Обучаемость": 0.115,
+      "Лидерство": 0.053,
+      "Ответственность": 0.361,
+      "Наставничество": 1.071,
+      "min_years": 3.182
+    },
+    "Δβ S→L": {
+      "Security & DevSecOps": 0.089,
+      "Networking, Protocols & Traffic": 0.649,
+      "ML & AI Infrastructure": 1.335,
+      "Observability & Monitoring": 0.823,
+      "Containers & Orchestration": 0.696,
+      "Big Data & Data Engineering": 1.598,
+      "CI/CD & GitOps": 0.528,
+      "Cloud Platforms": 1.063,
+      "Scripting & Automation": 1.67,
+      "Backend Languages": -0.582,
+      "Build & Package Management": 1.61,
+      "Relational Databases": -0.09,
+      "Storage & Filesystems": 0.522,
+      "Load Balancing & Service Mesh": 0.374,
+      "Virtualization & Hypervisors": 0.793,
+      "IaC & Config Management": 0.336,
+      "NoSQL & Time-Series DB": 0.694,
+      "Messaging & API Gateway": 0.178,
+      "Linux & OS Administration": 1.107,
+      "Web & Frontend": 1.49,
+      "Web Servers": 1.461,
+      "Backup & Recovery": 0.368,
+      "VoIP & Telephony": -0.068,
+      "Email & Collaboration": 0.002,
+      "Коллаборация": 1.346,
+      "Системное мышление": 0.301,
+      "Обучаемость": 0.982,
+      "Лидерство": 1.557,
+      "Ответственность": 0.973,
+      "Наставничество": 1.299,
+      "min_years": 0.525
+    }
+  }
+}

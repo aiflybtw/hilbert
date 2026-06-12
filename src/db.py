@@ -51,9 +51,14 @@ CREATE TABLE IF NOT EXISTS vacancies (
 CREATE INDEX IF NOT EXISTS idx_vacancies_source
     ON vacancies (source);
 
-ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS needs_review   BOOLEAN NOT NULL DEFAULT FALSE;
-ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS review_reasons TEXT;
-
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS needs_review      BOOLEAN NOT NULL DEFAULT FALSE;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS review_reasons    TEXT;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS salary_from_rub   NUMERIC;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS salary_to_rub     NUMERIC;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS skills_extracted       JSONB;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS hard_skills_json       JSONB;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS soft_skills_json       JSONB;
+ALTER TABLE vacancies ADD COLUMN IF NOT EXISTS responsibilities_json  JSONB;
 CREATE INDEX IF NOT EXISTS idx_vacancies_needs_review
     ON vacancies (needs_review) WHERE needs_review = TRUE;
 """

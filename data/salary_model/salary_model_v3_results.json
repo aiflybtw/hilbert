@@ -1,0 +1,657 @@
+{
+  "baseline_all": {
+    "model_name": "baseline (all)",
+    "n": 320,
+    "n_features": 35,
+    "n_selected": 23,
+    "best_alpha": 0.0022972879022867734,
+    "selected_features": [
+      "n_cluster_Security & Secrets",
+      "n_cluster_Networking & Traffic",
+      "n_cluster_2",
+      "n_cluster_Observability & Monitoring",
+      "n_cluster_3",
+      "n_cluster_CI/CD & Version Control",
+      "n_cluster_8",
+      "n_cluster_Backend Languages",
+      "n_cluster_Build & Package Management",
+      "n_cluster_13",
+      "n_cluster_Load Balancing & Service Mesh",
+      "n_cluster_IaC & Config Management",
+      "n_cluster_NoSQL & Time-Series DB",
+      "n_cluster_Messaging & API Gateway",
+      "n_cluster_Linux & OS Administration",
+      "s_cluster_1",
+      "s_cluster_2",
+      "s_cluster_5",
+      "s_cluster_6",
+      "seniority_Intern",
+      "seniority_Junior",
+      "seniority_Senior",
+      "seniority_Lead"
+    ],
+    "coefs": [
+      -0.0666272008464988,
+      -0.0856747563527218,
+      0.031989928623215556,
+      0.06588964938258002,
+      0.0,
+      0.09939527500716516,
+      -0.06598154364778261,
+      0.06816198156043193,
+      -0.0,
+      0.011011306477371703,
+      0.08097533737224556,
+      0.0015463908542429133,
+      -0.0,
+      -0.03773049558295647,
+      -0.0,
+      0.17133906754016226,
+      0.042454640690280154,
+      -0.12299685114648454,
+      -0.1804505196020627,
+      -0.0,
+      0.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.12630841573380677,
+      0.023231320611779037,
+      -0.0,
+      0.0,
+      -0.051271180533446294,
+      -0.04733949023928527,
+      -0.583063165436541,
+      -0.7560784931996254,
+      -0.0,
+      0.42564893055655756,
+      0.45591804704395666
+    ],
+    "intercept": 12.169645020619049,
+    "r2": 0.6242002962451816,
+    "cv_rmse": 0.3464434594183009,
+    "mae_rub": 57461.64111335487,
+    "mae_log": 0.23968511921221794,
+    "medae_rub": 45742.357406049196,
+    "coverage": 85.625,
+    "grade_sigma": {
+      "Intern": 0.339033,
+      "Junior": 0.452006,
+      "Middle": 0.389404,
+      "Senior": 0.294382,
+      "Lead": 0.399434
+    }
+  },
+  "baseline_subset": {
+    "model_name": "baseline (subset)",
+    "n": 297,
+    "n_features": 35,
+    "n_selected": 22,
+    "best_alpha": 0.002563472012420002,
+    "selected_features": [
+      "n_cluster_Security & Secrets",
+      "n_cluster_Networking & Traffic",
+      "n_cluster_2",
+      "n_cluster_Observability & Monitoring",
+      "n_cluster_3",
+      "n_cluster_CI/CD & Version Control",
+      "n_cluster_8",
+      "n_cluster_Backend Languages",
+      "n_cluster_Build & Package Management",
+      "n_cluster_Load Balancing & Service Mesh",
+      "n_cluster_IaC & Config Management",
+      "n_cluster_NoSQL & Time-Series DB",
+      "n_cluster_Messaging & API Gateway",
+      "n_cluster_Linux & OS Administration",
+      "s_cluster_1",
+      "s_cluster_2",
+      "s_cluster_5",
+      "s_cluster_6",
+      "seniority_Intern",
+      "seniority_Junior",
+      "seniority_Senior",
+      "seniority_Lead"
+    ],
+    "coefs": [
+      -0.07322516663858607,
+      -0.07864813040447764,
+      0.035959123363128856,
+      0.06053649267960721,
+      0.0,
+      0.11370028766091898,
+      -0.028624716989756032,
+      0.09438962919711728,
+      -0.0,
+      0.01949685492236634,
+      0.06990103834984485,
+      0.0,
+      -0.0,
+      -0.03050314480007673,
+      -0.0,
+      0.18360775259965317,
+      0.049962332552225604,
+      -0.11831439629217233,
+      -0.17660711570545848,
+      -0.0,
+      0.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.12873385743400467,
+      0.017610434017557266,
+      -0.0,
+      0.0,
+      -0.044854039131482164,
+      -0.05530832216374682,
+      -0.25124756752903077,
+      -0.7475928958105253,
+      -0.0,
+      0.41933365225593205,
+      0.451191593277839
+    ],
+    "intercept": 12.13252933165128,
+    "r2": 0.6089888743856284,
+    "cv_rmse": 0.35595923775955396,
+    "mae_rub": 57745.421809602565,
+    "mae_log": 0.24330591580576252,
+    "medae_rub": 47359.11134360818,
+    "coverage": 58.58585858585859,
+    "grade_sigma": {
+      "Intern": 0.351232,
+      "Junior": 0.484583,
+      "Middle": 0.38641,
+      "Senior": 0.303095,
+      "Lead": 0.408481
+    }
+  },
+  "full_with_resp": {
+    "model_name": "full + resp",
+    "n": 297,
+    "n_features": 48,
+    "n_selected": 20,
+    "best_alpha": 0.005972766256543467,
+    "selected_features": [
+      "n_cluster_Security & Secrets",
+      "n_cluster_Networking & Traffic",
+      "n_cluster_Observability & Monitoring",
+      "n_cluster_3",
+      "n_cluster_8",
+      "n_cluster_IaC & Config Management",
+      "n_cluster_NoSQL & Time-Series DB",
+      "n_cluster_Messaging & API Gateway",
+      "n_cluster_Linux & OS Administration",
+      "s_cluster_1",
+      "seniority_Junior",
+      "seniority_Senior",
+      "seniority_Lead",
+      "resp_0_CI/CD и пайплайны",
+      "resp_1_Администрирование ОС и БД",
+      "resp_2_Безопасность и отказоустойчивость",
+      "resp_3_Kubernetes и контейнеры",
+      "resp_4_Поддержка и сопровождение",
+      "resp_7_Автоматизация процессов",
+      "resp_11_Взаимодействие с командами"
+    ],
+    "coefs": [
+      -0.016726467085504817,
+      -0.0676177984354295,
+      0.0,
+      0.06307573353476513,
+      0.0,
+      0.08549891931041707,
+      -0.0,
+      0.06780946997190924,
+      -0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      0.15064153600366645,
+      0.025812494303243894,
+      -0.004155495745847248,
+      -0.1322065010341693,
+      -0.0,
+      -0.0,
+      0.0,
+      -0.0,
+      -0.0,
+      0.06672112805411397,
+      0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.6817316513406882,
+      -0.0,
+      0.39379839835421526,
+      0.3379763175281302,
+      -0.009494196072164215,
+      -0.0772268083675858,
+      0.04460204888096964,
+      -0.12846185095965315,
+      0.04843906955087831,
+      -0.0,
+      -0.0,
+      -0.008724667564426147,
+      -0.0,
+      0.0,
+      -0.00468895955017018,
+      -0.0,
+      0.0
+    ],
+    "intercept": 12.179896045756772,
+    "r2": 0.6065957307849146,
+    "cv_rmse": 0.35962744615795517,
+    "mae_rub": 59043.92278300094,
+    "mae_log": 0.24717108599375262,
+    "medae_rub": 48803.421536321344,
+    "coverage": 58.92255892255892,
+    "grade_sigma": {
+      "Intern": 0.31783,
+      "Junior": 0.465929,
+      "Middle": 0.377166,
+      "Senior": 0.309738,
+      "Lead": 0.407676
+    }
+  },
+  "comparison": {
+    "metric": [
+      "N",
+      "Features",
+      "Selected",
+      "R²",
+      "MAE_rub",
+      "MAE_log",
+      "MedAE_rub",
+      "Coverage_80pct"
+    ],
+    "baseline_all": [
+      320,
+      35,
+      23,
+      0.6242002962451816,
+      57461.64111335487,
+      0.23968511921221794,
+      45742.357406049196,
+      85.625
+    ],
+    "baseline_subset": [
+      297,
+      35,
+      22,
+      0.6089888743856284,
+      57745.421809602565,
+      0.24330591580576252,
+      47359.11134360818,
+      58.58585858585859
+    ],
+    "full_with_resp": [
+      297,
+      48,
+      20,
+      0.6065957307849146,
+      59043.92278300094,
+      0.24717108599375262,
+      48803.421536321344,
+      58.92255892255892
+    ]
+  },
+  "full_coefficients": {
+    "n_cluster_Security & Secrets": {
+      "coef": -0.016726467085504817,
+      "exp_coef": 0.9834126435752198,
+      "multiplier_pct": -1.6587356424780153,
+      "selected": true
+    },
+    "n_cluster_Networking & Traffic": {
+      "coef": -0.0676177984354295,
+      "exp_coef": 0.9346176176380929,
+      "multiplier_pct": -6.538238236190708,
+      "selected": true
+    },
+    "n_cluster_2": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_Observability & Monitoring": {
+      "coef": 0.06307573353476513,
+      "exp_coef": 1.0651075005328043,
+      "multiplier_pct": 6.510750053280434,
+      "selected": true
+    },
+    "n_cluster_Containers & Orchestration": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_3": {
+      "coef": 0.08549891931041707,
+      "exp_coef": 1.0892603841910793,
+      "multiplier_pct": 8.926038419107929,
+      "selected": true
+    },
+    "n_cluster_CI/CD & Version Control": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_8": {
+      "coef": 0.06780946997190924,
+      "exp_coef": 1.0701613911732843,
+      "multiplier_pct": 7.016139117328435,
+      "selected": true
+    },
+    "n_cluster_Scripting & Automation": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_Backend Languages": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_Build & Package Management": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_13": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_Storage & Filesystems": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_Load Balancing & Service Mesh": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_11": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_IaC & Config Management": {
+      "coef": 0.15064153600366645,
+      "exp_coef": 1.1625798403635774,
+      "multiplier_pct": 16.25798403635774,
+      "selected": true
+    },
+    "n_cluster_NoSQL & Time-Series DB": {
+      "coef": 0.025812494303243894,
+      "exp_coef": 1.0261485217399073,
+      "multiplier_pct": 2.6148521739907338,
+      "selected": true
+    },
+    "n_cluster_Messaging & API Gateway": {
+      "coef": -0.004155495745847248,
+      "exp_coef": 0.9958531263793967,
+      "multiplier_pct": -0.41468736206032863,
+      "selected": true
+    },
+    "n_cluster_Linux & OS Administration": {
+      "coef": -0.1322065010341693,
+      "exp_coef": 0.8761600484410814,
+      "multiplier_pct": -12.383995155891858,
+      "selected": true
+    },
+    "n_cluster_Web & Frontend": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_24": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_22": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_VoIP & Telephony": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "n_cluster_Email & Collaboration": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "s_cluster_1": {
+      "coef": 0.06672112805411397,
+      "exp_coef": 1.0689973232393304,
+      "multiplier_pct": 6.899732323933039,
+      "selected": true
+    },
+    "s_cluster_2": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "s_cluster_3": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "s_cluster_4": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "s_cluster_5": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "s_cluster_6": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "seniority_Intern": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "seniority_Junior": {
+      "coef": -0.6817316513406882,
+      "exp_coef": 0.5057404675082966,
+      "multiplier_pct": -49.42595324917034,
+      "selected": true
+    },
+    "seniority_Middle": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "seniority_Senior": {
+      "coef": 0.39379839835421526,
+      "exp_coef": 1.4826016236165094,
+      "multiplier_pct": 48.26016236165094,
+      "selected": true
+    },
+    "seniority_Lead": {
+      "coef": 0.3379763175281302,
+      "exp_coef": 1.4021072976454898,
+      "multiplier_pct": 40.21072976454898,
+      "selected": true
+    },
+    "resp_0_CI/CD и пайплайны": {
+      "coef": -0.009494196072164215,
+      "exp_coef": 0.9905507315111802,
+      "multiplier_pct": -0.9449268488819773,
+      "selected": true
+    },
+    "resp_1_Администрирование ОС и БД": {
+      "coef": -0.0772268083675858,
+      "exp_coef": 0.9256798778532637,
+      "multiplier_pct": -7.432012214673634,
+      "selected": true
+    },
+    "resp_2_Безопасность и отказоустойчивость": {
+      "coef": 0.04460204888096964,
+      "exp_coef": 1.045611674767493,
+      "multiplier_pct": 4.561167476749306,
+      "selected": true
+    },
+    "resp_3_Kubernetes и контейнеры": {
+      "coef": -0.12846185095965315,
+      "exp_coef": 0.8794471118418252,
+      "multiplier_pct": -12.055288815817477,
+      "selected": true
+    },
+    "resp_4_Поддержка и сопровождение": {
+      "coef": 0.04843906955087831,
+      "exp_coef": 1.0496314153583468,
+      "multiplier_pct": 4.963141535834681,
+      "selected": true
+    },
+    "resp_5_Проектирование и развёртывание инфраструктуры": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "resp_6_Участие в архитектурных решениях": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "resp_7_Автоматизация процессов": {
+      "coef": -0.008724667564426147,
+      "exp_coef": 0.9913132819019408,
+      "multiplier_pct": -0.868671809805921,
+      "selected": true
+    },
+    "resp_9_Внедрение инструментов": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "resp_10_Документирование и оптимизация": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "resp_11_Взаимодействие с командами": {
+      "coef": -0.00468895955017018,
+      "exp_coef": 0.9953220164586064,
+      "multiplier_pct": -0.46779835413935933,
+      "selected": true
+    },
+    "resp_12_Мониторинг и observability": {
+      "coef": -0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    },
+    "resp_14_Incident Response и устранение": {
+      "coef": 0.0,
+      "exp_coef": 1.0,
+      "multiplier_pct": 0.0,
+      "selected": false
+    }
+  },
+  "feature_names": [
+    "n_cluster_Security & Secrets",
+    "n_cluster_Networking & Traffic",
+    "n_cluster_2",
+    "n_cluster_Observability & Monitoring",
+    "n_cluster_Containers & Orchestration",
+    "n_cluster_3",
+    "n_cluster_CI/CD & Version Control",
+    "n_cluster_8",
+    "n_cluster_Scripting & Automation",
+    "n_cluster_Backend Languages",
+    "n_cluster_Build & Package Management",
+    "n_cluster_13",
+    "n_cluster_Storage & Filesystems",
+    "n_cluster_Load Balancing & Service Mesh",
+    "n_cluster_11",
+    "n_cluster_IaC & Config Management",
+    "n_cluster_NoSQL & Time-Series DB",
+    "n_cluster_Messaging & API Gateway",
+    "n_cluster_Linux & OS Administration",
+    "n_cluster_Web & Frontend",
+    "n_cluster_24",
+    "n_cluster_22",
+    "n_cluster_VoIP & Telephony",
+    "n_cluster_Email & Collaboration",
+    "s_cluster_1",
+    "s_cluster_2",
+    "s_cluster_3",
+    "s_cluster_4",
+    "s_cluster_5",
+    "s_cluster_6",
+    "seniority_Intern",
+    "seniority_Junior",
+    "seniority_Middle",
+    "seniority_Senior",
+    "seniority_Lead",
+    "resp_0_CI/CD и пайплайны",
+    "resp_1_Администрирование ОС и БД",
+    "resp_2_Безопасность и отказоустойчивость",
+    "resp_3_Kubernetes и контейнеры",
+    "resp_4_Поддержка и сопровождение",
+    "resp_5_Проектирование и развёртывание инфраструктуры",
+    "resp_6_Участие в архитектурных решениях",
+    "resp_7_Автоматизация процессов",
+    "resp_9_Внедрение инструментов",
+    "resp_10_Документирование и оптимизация",
+    "resp_11_Взаимодействие с командами",
+    "resp_12_Мониторинг и observability",
+    "resp_14_Incident Response и устранение"
+  ],
+  "resp_cluster_names": {
+    "0": "CI/CD и пайплайны",
+    "1": "Администрирование ОС и БД",
+    "2": "Безопасность и отказоустойчивость",
+    "3": "Kubernetes и контейнеры",
+    "4": "Поддержка и сопровождение",
+    "5": "Проектирование и развёртывание инфраструктуры",
+    "6": "Участие в архитектурных решениях",
+    "7": "Автоматизация процессов",
+    "9": "Внедрение инструментов",
+    "10": "Документирование и оптимизация",
+    "11": "Взаимодействие с командами",
+    "12": "Мониторинг и observability",
+    "14": "Incident Response и устранение"
+  }
+}

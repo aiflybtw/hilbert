@@ -1,9 +1,57 @@
+# Python
 __pycache__/
+*.pyc
+*.egg-info/
+*.egg
+dist/
+build/
+.venv/
+venv/
+
+# Notebooks
 .ipynb_checkpoints/
+notebooks/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
-*.xlsx
+.Rhistory
+
+# Secrets & config
 .env
 tg_session
 tg_session.session
+
+# Internal
 CONTEXT.md
+
+# Generated data exports
 *.csv
+*.xlsx
+
+# Generated binary data
+*.npy
+
+# Generated figures
+data/figures/
+
+# Generated reports
+data/currency_report.txt
+data/seniority_keywords.json
+data/salary_model/*.md
+data/salary_model/*.tex
+
+# Intermediate responsibility clustering
+data/action_normalization.json
+data/object_normalization.json
+data/responsibilities_raw.json
+data/responsibilities_prepared.json
+data/responsibilities_for_clustering.json
+data/responsibilities_clustered.json
+data/responsibilities_bertopic_model/
+data/responsibility_cluster_report.md
+data/responsibility_clustering_methodology.md
+data/responsibility_clusters_with_frequency.md

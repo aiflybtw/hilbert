@@ -23,7 +23,7 @@ from typing import Any
 from src.cleaners.description import TelegramCleaner
 from src.db import PostgresDB, VacancyRepo
 from src.features.deepseek_client import call_deepseek
-from src.features.prompts import FEW_SHOT_TEMPLATE, ZERO_SHOT_TEMPLATE
+from src.features.prompts import LLM_TELEGRAM_PARSE_PROMPT
 
 
 class TelegramLLMParser:
@@ -92,7 +92,7 @@ class TelegramLLMParser:
             return [dict(r) for r in cur.fetchall()]
 
     def _call_llm(self, text: str) -> dict[str, Any] | None:
-        prompt = FEW_SHOT_TEMPLATE.replace("{text}", text)
+        prompt = LLM_TELEGRAM_PARSE_PROMPT.replace("{text}", text)
         raw = call_deepseek(prompt, model=self.model)
         if raw is None:
             return None

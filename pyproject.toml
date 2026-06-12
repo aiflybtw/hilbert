@@ -15,12 +15,22 @@ dependencies = [
     "pandas",
     "sqlalchemy",
     "openpyxl",
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "statsmodels",
+    "matplotlib",
+    "seaborn",
+    "sentence-transformers",
+    "umap-learn",
+    "hdbscan",
+    "bertopic",
+    "pymorphy3",
 ]
 
 [project.scripts]
 hilbert-crawl = "src.cli.main:main"
 hilbert-clean = "src.cleaners.description:main"
-hilbert-review = "src.cli.review:main"
 
 [build-system]
 requires = ["setuptools>=64"]

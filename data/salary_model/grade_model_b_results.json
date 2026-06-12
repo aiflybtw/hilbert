@@ -1,0 +1,29 @@
+{
+  "model": "LogisticRegression (class_weight=balanced)",
+  "imputation": "kNN (k=5, skill features)",
+  "middle_senior_merge": true,
+  "n_train": 533,
+  "grade_order": [
+    "Intern",
+    "Junior",
+    "Middle",
+    "Senior",
+    "Lead"
+  ],
+  "grade_distribution": {
+    "Intern": 12,
+    "Junior": 35,
+    "Middle": 135,
+    "Senior": 296,
+    "Lead": 55
+  },
+  "metrics": {
+    "accuracy": 0.4709193245778612,
+    "adjacent_accuracy": 0.801125703564728,
+    "mean_ordinal_error": 0.797373358348968,
+    "accuracy_ord_probit": 0.5853658536585366,
+    "adjacent_accuracy_ord_probit": 0.9324577861163227,
+    "accuracy_ord_oversampled": 0.24953095684803,
+    "adjacent_accuracy_ord_oversampled": 0.6866791744840526
+  }
+}
