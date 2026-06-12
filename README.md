@@ -94,8 +94,6 @@ python scripts/salary_model.py --tail-alpha 0.15
 - `0.05` → 90% интервал
 - `0.15` → 70% интервал
 
-Интервалы считаются **бутстрепом** (10 000 итераций, выборка с возвратом из пула остатков своего грейда). Второй интервал в输出的 файлах — вдвое уже (`2 * tail_alpha`).
-
 ### 4.2 Результаты
 
 | Файл | Что содержит |
@@ -118,7 +116,7 @@ python scripts/generate_salary_figures.py
 python scripts/bootstrap_grade_model.py
 ```
 
-Результат: `data/salary_model/bootstrap_ci.json` (1000 бутстреп-итераций, β, Δβ, OOB метрики).
+Результат: `data/salary_model/bootstrap_ci.json` (1000 итераций).
 
 ---
 
@@ -163,7 +161,7 @@ scripts/
 data/                   # Результаты (коэффициенты, кластеры, фигуры)
   ├── clustering/       # Кластеризация hard skills
   ├── figures/          # PNG-визуализации
-  └── salary_model/     # Коэффициенты, предикшены, бутстреп
+  └── salary_model/     # Коэффициенты, предикшены
 ```
 
 ---
